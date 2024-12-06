@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins";
+  color: #4d4f62;
 }
 
 main {
@@ -11,7 +12,6 @@ main {
 }
 
 header {
-  color: #4d4f62;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -39,7 +39,6 @@ header h1 {
   line-height: 1.5625rem;
   text-align: center;
   letter-spacing: 0.104167px;
-  color: #4d4f62;
   opacity: 0.5;
   margin-top: 0.75rem;
 }
@@ -70,7 +69,6 @@ header h1 {
   font-weight: 600;
   font-size: 1.25rem;
   line-height: 1.875rem;
-  color: #4d4f62;
 }
 
 .card .card-content {
@@ -79,7 +77,6 @@ header h1 {
   font-size: 0.8125rem;
   line-height: 1.4375rem;
   letter-spacing: 0.0902778px;
-  color: #4d4f62;
   opacity: 0.5;
 }
 
@@ -125,7 +122,16 @@ header h1 {
   header {
     font-size: 2.25rem;
     max-width: 33.75rem;
-    text-align: center;
+  }
+
+  header h1 {
+    line-height: 3.375rem;
+    letter-spacing: 0.25px;
+  }
+
+  .sub-title {
+    line-height: 3.375rem;
+    letter-spacing: 0.25px;
   }
 
   .description {
@@ -168,6 +174,7 @@ header h1 {
   .card .card-icon {
     width: 4rem;
     height: 4rem;
+    margin-top: 2.5rem;
   }
 
   .border-top {
